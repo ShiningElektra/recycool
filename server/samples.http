@@ -1,0 +1,8 @@
+###GET HTML of index page
+GET http://localhost:3000
+
+### Get all waste-items
+GET http://localhost:3000/api/waste-items
+
+
+
