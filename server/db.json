@@ -3,47 +3,47 @@
     {
       "id": "1301",
       "description": "dropped icecream",
-      "typeof": "rest",
-      "image": "/rest_01.svg",
+      "type": "residual",
+      "image": "/residual_01.svg",
       "score": "1",
       "credits": "Lebensmittel Vektor erstellt von brgfx - de.freepik.com"
     },
     {
       "id": "1302",
       "description": "bone",
-      "typeof": "rest",
-      "image": "/rest_02.svg",
+      "type": "residual",
+      "image": "/residual_02.svg",
       "score": "1",
       "credits": "Lebensmittel Vektor erstellt von brgfx - de.freepik.com"
     },
     {
       "id": "1303",
       "description": "clamshells",
-      "typeof": "rest",
-      "image": "/rest_03.svg",
+      "type": "residual",
+      "image": "/residual_03.svg",
       "score": "1",
       "credits": "Lebensmittel Vektor erstellt von brgfx - de.freepik.com"
     },
     {
       "id": "1304",
       "description": "pizza leftovers",
-      "typeof": "rest",
-      "image": "/rest_04.svg",
+      "type": "residual",
+      "image": "/residual_04.svg",
       "score": "1",
       "credits": "Lebensmittel Vektor erstellt von brgfx - de.freepik.com"
     },
     {
       "id": "1305",
       "description": "fries leftovers",
-      "typeof": "rest",
-      "image": "/rest_05.svg",
+      "type": "residual",
+      "image": "/residual_05.svg",
       "score": "1",
       "credits": "Lebensmittel Vektor erstellt von brgfx - de.freepik.com"
     },
     {
       "id": "1201",
       "description": "flat red tin",
-      "typeof": "recycle",
+      "type": "recycle",
       "image": "/recycle_01.svg",
       "score": "1",
       "credits": "Lebensmittel Vektor erstellt von brgfx - de.freepik.com"
@@ -51,7 +51,7 @@
     {
       "id": "1202",
       "description": "broken scissors",
-      "typeof": "recycle",
+      "type": "recycle",
       "image": "/recycle_02.svg",
       "score": "1",
       "credits": "Lebensmittel Vektor erstellt von brgfx - de.freepik.com"
@@ -59,7 +59,7 @@
     {
       "id": "1203",
       "description": "tin can",
-      "typeof": "recycle",
+      "type": "recycle",
       "image": "/recycle_03.svg",
       "score": "1",
       "credits": "Lebensmittel Vektor erstellt von brgfx - de.freepik.com"
@@ -67,7 +67,7 @@
     {
       "id": "1204",
       "description": "compressed tin can",
-      "typeof": "recycle",
+      "type": "recycle",
       "image": "/recycle_04.svg",
       "score": "1",
       "credits": "Lebensmittel Vektor erstellt von brgfx - de.freepik.com"
@@ -75,7 +75,7 @@
     {
       "id": "1205",
       "description": "flat green tin",
-      "typeof": "recycle",
+      "type": "recycle",
       "image": "/recycle_05.svg",
       "score": "1",
       "credits": "Lebensmittel Vektor erstellt von brgfx - de.freepik.com"
@@ -83,7 +83,7 @@
     {
       "id": "1206",
       "description": "flat orange tin",
-      "typeof": "recycle",
+      "type": "recycle",
       "image": "/recycle_06.svg",
       "score": "1",
       "credits": "Lebensmittel Vektor erstellt von brgfx - de.freepik.com"
@@ -91,7 +91,7 @@
     {
       "id": "1207",
       "description": "plastic bottle",
-      "typeof": "recycle",
+      "type": "recycle",
       "image": "/recycle_07.svg",
       "score": "1",
       "credits": "Lebensmittel Vektor erstellt von brgfx - de.freepik.com"
@@ -99,7 +99,7 @@
     {
       "id": "1208",
       "description": "used foodbox",
-      "typeof": "recycle",
+      "type": "recycle",
       "image": "/recycle_08.svg",
       "score": "1",
       "credits": "Lebensmittel Vektor erstellt von brgfx - de.freepik.com"
@@ -107,7 +107,7 @@
     {
       "id": "1209",
       "description": "used smoothie cup",
-      "typeof": "recycle",
+      "type": "recycle",
       "image": "/recycle_09.svg",
       "score": "1",
       "credits": "Lebensmittel Vektor erstellt von brgfx - de.freepik.com"
@@ -115,7 +115,7 @@
     {
       "id": "1210",
       "description": "compressed plastic bottle",
-      "typeof": "recycle",
+      "type": "recycle",
       "image": "/recycle_10.svg",
       "score": "1",
       "credits": "Lebensmittel Vektor erstellt von brgfx - de.freepik.com"
@@ -123,7 +123,7 @@
     {
       "id": "1211",
       "description": "green plastic bag",
-      "typeof": "recycle",
+      "type": "recycle",
       "image": "/recycle_11.svg",
       "score": "1",
       "credits": "Lebensmittel Vektor erstellt von brgfx - de.freepik.com"
@@ -131,7 +131,7 @@
     {
       "id": "1212",
       "description": "white plastic bag",
-      "typeof": "recycle",
+      "type": "recycle",
       "image": "/recycle_12.svg",
       "score": "1",
       "credits": "Lebensmittel Vektor erstellt von brgfx - de.freepik.com"
@@ -139,7 +139,7 @@
     {
       "id": "1101",
       "description": "old magazine",
-      "typeof": "paper",
+      "type": "paper",
       "image": "/paper_01.svg",
       "score": "1",
       "credits": "Lebensmittel Vektor erstellt von brgfx - de.freepik.com"
@@ -147,7 +147,7 @@
     {
       "id": "1102",
       "description": "old letters",
-      "typeof": "paper",
+      "type": "paper",
       "image": "/paper_02.svg",
       "score": "1",
       "credits": "Lebensmittel Vektor erstellt von brgfx - de.freepik.com"
@@ -155,7 +155,7 @@
     {
       "id": "1103",
       "description": "old package",
-      "typeof": "paper",
+      "type": "paper",
       "image": "/paper_03.svg",
       "score": "1",
       "credits": "Lebensmittel Vektor erstellt von brgfx - de.freepik.com"
@@ -163,7 +163,7 @@
     {
       "id": "1104",
       "description": "old brown letter",
-      "typeof": "paper",
+      "type": "paper",
       "image": "/paper_04.svg",
       "score": "1",
       "credits": "Lebensmittel Vektor erstellt von brgfx - de.freepik.com"
@@ -171,7 +171,7 @@
     {
       "id": "1001",
       "description": "banana peel",
-      "typeof": "rest",
+      "type": "residual",
       "image": "/bio_01.svg",
       "score": "1",
       "credits": "Lebensmittel Vektor erstellt von brgfx - de.freepik.com"
@@ -179,7 +179,7 @@
     {
       "id": "1002",
       "description": "eggshell",
-      "typeof": "rest",
+      "type": "residual",
       "image": "/bio_02.svg",
       "score": "1",
       "credits": "Lebensmittel Vektor erstellt von brgfx - de.freepik.com"
@@ -187,7 +187,7 @@
     {
       "id": "1003",
       "description": "lettuce leaf leftover",
-      "typeof": "rest",
+      "type": "residual",
       "image": "/bio_03.svg",
       "score": "1",
       "credits": "Lebensmittel Vektor erstellt von brgfx - de.freepik.com"
@@ -195,7 +195,7 @@
     {
       "id": "1004",
       "description": "rotten peppers",
-      "typeof": "rest",
+      "type": "residual",
       "image": "/bio_04.svg",
       "score": "1",
       "credits": "Lebensmittel Vektor erstellt von brgfx - de.freepik.com"
