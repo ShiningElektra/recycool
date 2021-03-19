@@ -25,8 +25,3 @@ Play.args = {
   primary: true,
   label: "Spielen",
 };
-export const Score = Template.bind({});
-Score.args = {
-  primary: false,
-  label: "101",
-};
