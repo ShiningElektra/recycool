@@ -1,8 +1,24 @@
+:root {
+  --background-color: #2d2e30;
+  --primary-text: #fff;
+  --secondary-text: #cff8d2;
+  --tertiary-flow-text: #818181;
+  --tertiary-list-text: #16c821;
+  --tertiary-text: #000;
+  --primary-button: #0bc717;
+  --secondary-button: #109f1c;
+  --tertiary-button: #81e187;
+  --tertiary-button-bg: #d2ffd5;
+  --primary-font-size: 1 em;
+  --secondary-font-size: 0.8em;
+  --button-font-style: bold;
+  --input-font-style: normal;
+}
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  font-family: apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 

@@ -19,3 +19,14 @@ export const Secondary = Template.bind({});
 Secondary.args = {
   label: "Button",
 };
+
+export const Play = Template.bind({});
+Play.args = {
+  primary: true,
+  label: "Spielen",
+};
+export const Score = Template.bind({});
+Score.args = {
+  primary: false,
+  label: "101",
+};
