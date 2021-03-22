@@ -9,7 +9,9 @@ export type ButtonProps = {
 function Button({ primary, label, ...props }: ButtonProps) {
   return (
     <button
-      className={`${styles.btn} ${primary ? styles.primary : ""}`}
+      className={`${styles.btn}  ${primary ? styles.primary : ""} ${
+        primary ? styles.gloss : ""
+      } ${!primary ? styles.secondary : ""}`}
       {...props}
     >
       {label}

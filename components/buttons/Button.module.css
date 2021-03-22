@@ -1,8 +1,52 @@
 .btn {
-  border-radius: 10px;
+  max-width: 200px;
+  min-width: 150px;
+  border-radius: 20px;
+  outline: none;
+  background: linear-gradient(180deg, #0bc717 0%, #2a7903 100%);
 }
 
+/* padding: oben rechts unten links  */
+
+.primary.gloss {
+  box-shadow: inset 0 0 2px 1px hsla(0, 0%, 0%, 0.5),
+    inset 0 3px 2px 0.1px hsla(124, 90%, 41%),
+    inset 0 -3px 10px 5px hsla(0, 0%, 0%, 0.25),
+    inset 0 20px 50px -25px hsla(125, 82%, 34%, 0.5),
+    2px 1px 3px hsla(0, 0%, 0%, 0.25);
+}
+.primary.gloss:hover,
+.primary.gloss:focus {
+  box-shadow: inset 0 0 3px 1px hsla(0, 0%, 0%, 0.5),
+    inset 0 3px 2px rgb(9, 153, 19), inset 0 -3px 10px 5px hsla(0, 0%, 0%, 0.25),
+    inset 0 20px 50px -25px hsla(125, 82%, 34%, 0.5),
+    2px 1px 3px hsla(0, 0%, 0%, 0.25);
+  position: relative;
+  color: #e0ffe2;
+  top: 0;
+}
+.primary.gloss:active {
+  padding-top: 5px;
+  box-shadow: inset 0 0 1px 1px hsla(0, 0%, 0%, 0.5);
+  top: 0;
+}
 .primary {
-  color: antiquewhite;
-  background: black;
+  font-size: var(--primary-font-size);
+  color: var(--primary-text);
+  padding: 0.3em 3em 0.3em 3em;
+  border: none;
+}
+.secondary {
+  border: solid 0.2em #0a6b14;
+  outline: none;
+  color: var(--secondary-text);
+  font-size: var(--primary-font-size);
+  padding: 0.4em 1em 0.2em 1em;
+}
+.gloss {
+  box-shadow: inset 0 0 2px 1px hsla(0, 0%, 0%, 0.5),
+    inset 0 3px 2px 0.1px hsla(124, 90%, 41%),
+    inset 0 -3px 10px 5px hsla(0, 0%, 0%, 0.25),
+    inset 0 20px 50px -25px hsla(125, 82%, 34%, 0.5),
+    2px 1px 3px hsla(0, 0%, 0%, 0.25);
 }
