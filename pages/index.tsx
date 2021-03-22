@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Button from "../components/buttons/Button";
+import Burger from "../components/burger/Burger";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
@@ -11,8 +12,8 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <Button primary label="Primary" />
-        <Button primary={false} label="Secondary" />
+        <Burger />
+        <Button primary={true} label="Spielen" />
       </main>
     </div>
   );
