@@ -10,5 +10,8 @@ export default {
 
 const Template: Story<BurgerProps> = (args) => <Burger {...args} />;
 
-export const Close = Template.bind({});
-Close.args = {};
+export const Closed = Template.bind({});
+Closed.args = { open: false };
+
+export const Open = Template.bind({});
+Open.args = { open: true };

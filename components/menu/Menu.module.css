@@ -10,6 +10,7 @@
   top: 0;
   left: 0;
   transition: transform 0.3s ease-in-out;
+  transform: translateX(-100%);
 }
 .menu a {
   font-size: 2rem;
@@ -23,4 +24,7 @@
 }
 .menu :hover {
   color: #343078;
+}
+.open {
+  transform: translateX(0%);
 }

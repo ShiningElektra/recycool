@@ -12,6 +12,8 @@
   cursor: pointer;
   padding: 0;
   z-index: 10;
+  opacity: 0.1;
+  transition: opacity 0.3s ease-in-out;
 }
 
 .burger :focus {
@@ -26,4 +28,8 @@
   transition: all 0.3s linear;
   position: relative;
   transform-origin: 1px;
+}
+
+.open {
+  opacity: 1;
 }

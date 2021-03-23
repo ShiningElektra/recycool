@@ -1,15 +1,16 @@
 import styles from "../menu/Menu.module.css";
 import React from "react";
-import { bool } from "prop-types";
 
-const Menu = ({ open }) => {
-  const className = "menu";
+export type MenuProps = { open: boolean };
+// property die open heißt
+const Menu = ({ open }: MenuProps) => {
+  let className = styles.menu;
   if (open) {
-    className += " open";
+    className += " " + styles.open;
   }
 
   return (
-    <nav open={open} className={className}>
+    <nav className={className}>
       <a href="/">
         <span role="img" aria-label="price">
           &#x1f4b8;
@@ -28,7 +29,5 @@ const Menu = ({ open }) => {
     </nav>
   );
 };
-Menu.propTypes = {
-  open: bool.isRequired,
-};
+
 export default Menu;
