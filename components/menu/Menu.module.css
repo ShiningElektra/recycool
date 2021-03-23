@@ -9,8 +9,9 @@
   position: absolute;
   top: 0;
   left: 0;
-  transition: transform 0.3s ease-in-out;
-  transform: translateX(-100%);
+  transition: all 0.2s ease-in;
+  opacity: 0;
+  visibility: hidden;
 }
 .menu a {
   font-size: 2rem;
@@ -26,5 +27,6 @@
   color: #343078;
 }
 .open {
-  transform: translateX(0%);
+  opacity: 1;
+  visibility: visible;
 }
