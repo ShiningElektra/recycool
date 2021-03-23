@@ -1,16 +1,15 @@
+import { ButtonHTMLAttributes } from "react";
 import styles from "../burger/Burger.module.css";
 
-// export type BurgerProps = {
-//   primary: boolean;
-// };
+export type BurgerProps = ButtonHTMLAttributes<HTMLButtonElement>;
 
-const Burger = () => {
+const Burger = (props: BurgerProps) => {
   return (
-    <div className={`${styles.burger}`}>
+    <button className={styles.burger} {...props}>
       <div></div>
       <div></div>
       <div></div>
-    </div>
+    </button>
   );
 };
 export default Burger;
