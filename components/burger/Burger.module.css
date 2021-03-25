@@ -1,7 +1,7 @@
 .burger {
   position: absolute;
-  top: 4%;
-  right: 4%;
+  top: 2rem;
+  right: 2rem;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
