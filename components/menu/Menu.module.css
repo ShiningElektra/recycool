@@ -1,7 +1,7 @@
 .menu {
   position: absolute;
-  top: 3%;
-  right: 2%;
+  top: 1.5rem;
+  right: 1.5rem;
   display: flex;
   align-self: flex-end;
   flex-direction: column;
