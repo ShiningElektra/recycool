@@ -1,0 +1,51 @@
+.menu {
+  position: absolute;
+  top: 3%;
+  right: 2%;
+  display: flex;
+  align-self: flex-end;
+  flex-direction: column;
+  max-width: 200px;
+  background: var(--tertiary-button-bg);
+  border: 0.18em solid var(--secondary-button);
+  border-radius: 20px;
+  text-align: center;
+  transition: all 0.2s ease-in;
+  opacity: 0;
+  visibility: hidden;
+}
+.menu a {
+  font-size: var(--primary-font-size);
+  padding: 0.5em 0 0.8em 0;
+  font-weight: var(--button-font-style);
+  color: var(--primary-text);
+  background: var(--primary-button);
+  text-shadow: 3px 2px 5px rgba(26, 0, 102, 0.7);
+  transition: color 0.3s linear;
+}
+.menu a:last-child {
+  border-bottom-left-radius: 17px;
+  border-bottom-right-radius: 17px;
+}
+.menu :not(:first-child):not(:last-child) {
+  border-bottom: 1px solid var(--tertiary-button);
+}
+.menu a:hover {
+  background: var(--tertiary-button);
+}
+.open {
+  opacity: 1;
+  visibility: visible;
+}
+.logoImg {
+  height: 1.5em;
+}
+.logoNav {
+  display: grid;
+  grid-template-columns: 0.2fr 1.8fr 0.6fr;
+  grid-template-rows: 1fr;
+  gap: 0 1.5em;
+  padding: 0.5em;
+  padding-top: 0.7em;
+  border-bottom: 0.18em solid var(--secondary-button);
+}

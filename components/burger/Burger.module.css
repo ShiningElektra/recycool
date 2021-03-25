@@ -1,0 +1,38 @@
+.burger {
+  position: absolute;
+  top: 4%;
+  right: 4%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 1.8rem;
+  background: transparent;
+  cursor: pointer;
+  z-index: 10;
+  opacity: 0.5;
+  transition: opacity 0.3s ease-in-out;
+  border: transparent;
+  border-radius: 10px;
+  outline: none;
+}
+
+.burger :focus {
+  outline: none;
+}
+
+.burger div {
+  width: 1.3rem;
+  height: 0.2rem;
+  background: var(--primary-text);
+  border-radius: 10px;
+  transition: all 0.3s linear;
+  position: relative;
+  transform-origin: 1px;
+}
+
+.open {
+  opacity: 1;
+  border-radius: 10px;
+  border: 0.2em solid var(--secondary-button);
+  background: linear-gradient(180deg, #0bc717 0%, #2a7903 100%);
+}
