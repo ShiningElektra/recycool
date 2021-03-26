@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Button from "../components/buttons/Button";
+import IndexHG from "../components/indexHG/IndexHG";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
@@ -11,6 +12,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
+        <IndexHG />
         <Button primary={true} label="Spielen" />
       </main>
     </div>
