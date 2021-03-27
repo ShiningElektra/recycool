@@ -1,0 +1,27 @@
+.container {
+  display: grid;
+  background-image: url(/indexpic.png);
+  width: 100vw;
+  height: 100vh;
+  padding: 15%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  align-content: space-between;
+  justify-content: center;
+}
+.form {
+  margin-top: 10vh;
+  width: 100%;
+  display: grid;
+  justify-content: center;
+  grid-row-gap: 1em;
+}
+.form input[type="submit"] {
+  background: linear-gradient(180deg, #0bc717 0%, #2a7903 100%);
+}
+.logo {
+  max-width: 100%;
+  max-height: 20vh;
+  margin-bottom: 0;
+}
