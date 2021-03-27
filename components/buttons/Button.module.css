@@ -1,9 +1,12 @@
 .btn {
-  max-width: 200px;
-  min-width: 150px;
-  border-radius: 20px;
+  position: relative;
+
+  /* max-width: 20rem;
+  min-width: 15rem; */
+  border-radius: 5rem;
   outline: none;
   background: linear-gradient(180deg, #0bc717 0%, #2a7903 100%);
+  margin-top: -30%;
 }
 
 /* padding: oben rechts unten links  */
@@ -31,7 +34,7 @@
   top: 0;
 }
 .primary {
-  font-size: var(--primary-font-size);
+  font-size: 5rem;
   color: var(--primary-text);
   padding: 0.3em 3em 0.3em 3em;
   border: none;
