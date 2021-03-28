@@ -3,7 +3,7 @@
   background-image: url(/indexpic.png);
   width: 100vw;
   height: 100vh;
-  padding: 15%;
+  padding: 8%;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -15,6 +15,7 @@
   display: grid;
   justify-content: center;
   grid-row-gap: 0.5em;
+  padding-bottom: 5%;
 }
 
 .form input {
@@ -44,11 +45,9 @@
   top: 0;
 }
 .form input[type="submit"]:active {
-  padding-top: 5px;
   box-shadow: inset 0 0 1px 1px hsla(0, 0%, 0%, 0.5);
   top: 0;
 }
 .logo {
-  max-width: 100%;
-  max-height: 20vh;
+  max-width: 90vw;
 }
