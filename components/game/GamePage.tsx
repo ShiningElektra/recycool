@@ -1,4 +1,4 @@
-import Field from "../fieldX/Field";
+import Field from "../field/Field";
 import styles from "./GamePage.module.css";
 
 const GamePage = () => {
