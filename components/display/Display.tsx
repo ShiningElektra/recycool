@@ -2,18 +2,14 @@ import "./Display.module.css";
 import styles from "./Display.module.css";
 
 export type DisplayProps = {
-  primary: boolean;
-  value: string | number;
+  value: string | number | null;
+  style: string;
 };
 
-function Display({ primary, value }: DisplayProps) {
+function Display({ value, style }: DisplayProps) {
   return (
-    <div
-      className={`${styles.display} ${primary ? styles.score : ""} ${
-        !primary ? styles.time : ""
-      }`}
-    >
-      {value}
+    <div className={styles.display}>
+      <div className={styles[style]}>{value}</div>
     </div>
   );
 }

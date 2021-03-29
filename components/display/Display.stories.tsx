@@ -11,11 +11,6 @@ const Template: Story<DisplayProps> = (args) => <Display {...args} />;
 
 export const Score = Template.bind({});
 Score.args = {
-  primary: true,
-  value: 101,
-};
-export const Time = Template.bind({});
-Time.args = {
-  primary: false,
-  value: "00:35",
+  score: 101,
+  time: "00:30",
 };
