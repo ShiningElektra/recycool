@@ -2,7 +2,7 @@ import "./Display.module.css";
 import styles from "./Display.module.css";
 
 export type DisplayProps = {
-  value: string | number | null;
+  value: string | number;
   style: string;
 };
 

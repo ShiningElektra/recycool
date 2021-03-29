@@ -13,10 +13,10 @@ export default function Home() {
 
       <main>
         <GamePage />
-        <form className={styles.display}>
+        <div className={styles.display}>
           <Display value="00:30" style="time" />
           <Display value="101" style="score" />
-        </form>
+        </div>
       </main>
     </>
   );
