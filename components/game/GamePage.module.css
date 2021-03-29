@@ -1,5 +1,5 @@
 .container {
-  background-image: url(/indexpic.png);
+  background-image: url(/gamehgpic.png);
   width: 100vw;
   height: 100vh;
   background-size: cover;
@@ -8,6 +8,13 @@
   align-content: space-between;
   justify-content: center;
 }
-.form {
+.fields {
   display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-between;
+  grid-gap: 1rem;
+}
+.container .fields {
+  width: 100%;
+  padding: 30% 15% 0 15%;
 }

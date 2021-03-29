@@ -4,9 +4,11 @@ import styles from "./GamePage.module.css";
 const GamePage = () => {
   return (
     <div className={styles.container}>
-      <form className={styles.form}>
+      <div className={styles.fields}>
         <Field />
-      </form>
+        <Field />
+        <Field />
+      </div>
     </div>
   );
 };
