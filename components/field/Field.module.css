@@ -2,9 +2,9 @@
   width: 120px;
   height: 120px;
   background-color: white;
-  opacity: 70%;
+  opacity: 90%;
   border-radius: 20%;
-  border: 0.3rem solid rgba(0, 0, 0, 0.867);
+  border: 0.3rem solid rgba(0, 0, 0, 0.7);
 }
 .item {
   object-fit: contain;

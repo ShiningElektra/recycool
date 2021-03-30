@@ -2,17 +2,12 @@
   color: var(--primary-text);
   font-size: 1rem;
   max-width: 100%;
-  border-radius: 0.8rem;
-  padding: 0.2rem 3rem;
-  border: solid 0.1rem #0a6b14;
+  border-radius: 0.7rem;
+  padding: 0.18rem 2.8rem;
+  border: solid 0.15rem #0a6b14;
   outline: none;
   background: linear-gradient(180deg, #0bc717, #2a7903);
 }
 .score {
-  text-align: left;
-  padding-right: 1.4rem;
-}
-
-.time {
-  text-align: center;
+  padding-right: 1.2rem;
 }
