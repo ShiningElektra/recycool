@@ -11,8 +11,8 @@ const Menu = ({ open }: MenuProps) => {
   return (
     <nav className={className}>
       <div className={styles.logoNav}>
-        <img className={styles.logoImg} src="/Logo.png" />
-        <img className={styles.logoImg} src="/Schrift.png" />
+        <img className={styles.logoImg} src="/logo.png" />
+        <img className={styles.logoImg} src="/recycool.png" />
       </div>
       <a href="/">
         <div>Verlassen</div>
