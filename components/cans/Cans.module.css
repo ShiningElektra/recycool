@@ -1,0 +1,24 @@
+.container {
+  position: absolute;
+  top: 30%;
+  left: 5%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-between;
+  grid-gap: 1rem;
+}
+.canresidual {
+  height: 400px;
+  width: 200px;
+  background: url(/canresidual.png);
+}
+.canrecycling {
+  height: 400px;
+  width: 200px;
+  background: url(/canrecycling.png);
+}
+.canpaper {
+  height: 400px;
+  width: 200px;
+  background: url(/canpaper.png);
+}
