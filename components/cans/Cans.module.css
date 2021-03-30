@@ -7,18 +7,23 @@
   justify-content: space-between;
   grid-gap: 1rem;
 }
-.canresidual {
+.container div {
   height: 400px;
   width: 200px;
+  animation: sprite 1.5s steps(4) 1;
+  animation-play-state: running;
+}
+.canresidual {
   background: url(/canresidual.png);
 }
 .canrecycling {
-  height: 400px;
-  width: 200px;
   background: url(/canrecycling.png);
 }
 .canpaper {
-  height: 400px;
-  width: 200px;
   background: url(/canpaper.png);
+}
+@keyframes sprite {
+  to {
+    background-position: -880px;
+  }
 }
