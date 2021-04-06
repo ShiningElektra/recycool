@@ -14,8 +14,8 @@ export default function Home() {
       <main>
         <GamePage />
         <div className={styles.display}>
-          <Display value="00:30" style="time" />
-          <Display value="101" style="score" />
+          <Display id="time" value="30" style="time" />
+          <Display id="score" value="0" style="score" />
         </div>
       </main>
     </>
