@@ -1,5 +1,5 @@
-import { Meta } from "@storybook/react/types-6-0";
-import Can from "./Can";
+import { Meta, Story } from "@storybook/react/types-6-0";
+import Can, { CanProps } from "./Can";
 
 export default {
   title: "Common/Can",
@@ -9,4 +9,9 @@ export default {
   },
 } as Meta;
 
-export const CanItem = () => <Can />;
+const Template: Story<CanProps> = (args) => <Can {...args} />;
+export const CanItem = Template.bind({});
+CanItem.args = {
+  type: "paper",
+  className: "canpaper",
+};
