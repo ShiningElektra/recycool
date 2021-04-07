@@ -1,10 +1,10 @@
 export type APIWaste = {
   id: number;
-  description: string;
-  typeof: "residual" | "recycle" | "paper" | "bio";
+  description?: string;
+  type: "residual" | "recycle" | "paper" | "bio";
   imageSrc: string;
   score: number;
-  credits: string;
+  credits?: string;
 };
 
 // // frontend to use db.mongo
