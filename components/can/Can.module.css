@@ -1,14 +1,4 @@
-.container {
-  position: absolute;
-  top: 30%;
-  left: 5%;
-  display: grid;
-  grid-template-columns: auto auto auto;
-  justify-content: space-between;
-  grid-gap: 1rem;
-}
-
-/* .container div {
+.container div {
   height: 400px;
   width: 200px;
   animation: sprite 1.5s steps(4) 1;
@@ -17,7 +7,7 @@
 .canresidual {
   background: url(/canresidual.png);
 }
-.canrecycling {
+.canrecycle {
   background: url(/canrecycling.png);
 }
 .canpaper {
@@ -27,4 +17,4 @@
   to {
     background-position: -880px;
   }
-} */
+}
