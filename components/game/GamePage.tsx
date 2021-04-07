@@ -36,6 +36,7 @@ function GamePage() {
     const deleteFromList = randomList.filter((item) => +item.id === +id);
     setRandomList(deleteFromList);
   }
+  console.log(handleDragEnd);
 
   return (
     <div className={styles.container}>
