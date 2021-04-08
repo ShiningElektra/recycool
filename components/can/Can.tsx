@@ -12,6 +12,8 @@ function Can({ type, className }: CanProps) {
     const fieldType = e.dataTransfer.getData("fieldType");
     const fieldScore = e.dataTransfer.getData("fieldScore");
 
+    console.log(fieldType);
+
     if (type === fieldType) {
       alert("Correct");
     } else {
