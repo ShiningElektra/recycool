@@ -1,4 +1,5 @@
 import styles from "./Welcome.module.css";
+import Link from "next/link";
 
 const Welcome = () => {
   return (
@@ -7,7 +8,9 @@ const Welcome = () => {
       {/* Schatten und Logo und Weißraum mit einbauen, umbenennen */}
       <form className={styles.form}>
         <input placeholder="Dein Name" />
-        <input type="submit" value="Spielen" />
+        <Link href="/game">
+          <input type="submit" value="Spielen" />
+        </Link>
       </form>
     </div>
   );

@@ -20,7 +20,7 @@
 
 .form input {
   border-radius: 0.8rem;
-  color: var(--primary-text);
+  color: var(--tertiary-text);
   padding: 0.4rem;
   outline: none;
   border: none;
@@ -28,6 +28,7 @@
 .form input[type="submit"] {
   font-weight: bold;
   background: linear-gradient(180deg, #0bc717 0%, #2a7903 100%);
+  color: var(--primary-text);
   box-shadow: inset 0 0 2px 1px hsla(0, 0%, 0%, 0.5),
     inset 0 3px 2px 0.1px hsla(124, 90%, 41%),
     inset 0 -3px 10px 5px hsla(0, 0%, 0%, 0.25),
