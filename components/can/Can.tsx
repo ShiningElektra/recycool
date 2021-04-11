@@ -2,17 +2,12 @@ import styles from "../can/Can.module.css";
 
 export type CanProps = {
   type: "paper" | "recycle" | "residual";
-  className: string;
 };
 
-function Can({ type, className }: CanProps) {
+function Can({ type }: CanProps) {
   const drop = (e) => {
     e.preventDefault();
-    const fieldId = e.dataTransfer.getData("fieldId");
     const fieldType = e.dataTransfer.getData("fieldType");
-    const fieldScore = e.dataTransfer.getData("fieldScore");
-
-    console.log(fieldType);
 
     if (type === fieldType) {
       alert("Correct");
@@ -31,11 +26,7 @@ function Can({ type, className }: CanProps) {
 
   return (
     <div className={styles.container}>
-      <div
-        className={styles[className]}
-        onDrop={drop}
-        onDragOver={dragOver}
-      ></div>
+      <div className={styles[type]} onDrop={drop} onDragOver={dragOver}></div>
     </div>
   );
 }

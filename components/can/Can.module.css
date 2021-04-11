@@ -4,13 +4,13 @@
   animation: sprite 1.5s steps(4) 1;
   animation-play-state: running;
 }
-.canresidual {
+.residual {
   background: url(/canresidual.png);
 }
-.canrecycle {
+.recycle {
   background: url(/canrecycling.png);
 }
-.canpaper {
+.paper {
   background: url(/canpaper.png);
 }
 @keyframes sprite {
