@@ -18,12 +18,11 @@ function GamePage() {
     }
     return a;
   }
-  console.log(newItemList);
 
   shuffle(wasteItems);
 
   useEffect(() => {
-    const itemList = wasteItems.slice(startIndex, 3);
+    const itemList = [wasteItems].slice(startIndex, 3);
     setStartIndex(startIndex + 1);
     setNewItemList(itemList);
 
@@ -52,7 +51,8 @@ function GamePage() {
               type={item.type}
               imageSrc={item.imageSrc}
               score={item.score}
-            ></Field>
+              description={item.description}
+            />
           );
         })}
       </div>
