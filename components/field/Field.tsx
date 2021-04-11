@@ -1,13 +1,11 @@
+import { APIWaste } from "../../utils/api";
 import styles from "./Field.module.css";
 import React from "react";
-import { APIWaste } from "../../utils/api";
 
 function Field({ id, type, imageSrc, score }: APIWaste) {
   const dragStart = (e) => {
     const target = e.target;
-    e.dataTransfer.setData("fieldId", id);
-    e.dataTransfer.setData("fieldType", type);
-    e.dataTransfer.setData("fieldScore", score);
+    e.dataTransfer.setData("waste", JSON.stringify({ id, type, score }));
 
     setTimeout(() => {
       target.style.display = "none";
@@ -26,6 +24,15 @@ function Field({ id, type, imageSrc, score }: APIWaste) {
     >
       <img className={styles.item} src={imageSrc} />
     </div>
+    // {...item}
   );
 }
 export default Field;
+
+/*export default function Field({ imageSrc }: APIWaste) {
+  return (
+    <div className={styles.field}>
+      <img className={styles.item} src={imageSrc} />
+    </div>
+  );
+}*/
