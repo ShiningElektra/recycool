@@ -1,8 +1,8 @@
 import styles from "../menu/Menu.module.css";
 import React from "react";
-export type MenuProps = { open: boolean };
+export type MenuProps = { open: boolean; onClick };
 
-const Menu = ({ open }: MenuProps) => {
+const Menu = ({ open, onClick }: MenuProps) => {
   let className = styles.menu;
   if (open) {
     className += " " + styles.open;
@@ -17,10 +17,10 @@ const Menu = ({ open }: MenuProps) => {
       <a href="/">
         <div>Verlassen</div>
       </a>
-      <a href="/">
+      <a href="#" onClick={() => onClick("highscore")}>
         <div>HighScore</div>
       </a>
-      <a href="/">
+      <a href="#" onClick={() => onClick("credits")}>
         <div>Credits</div>
       </a>
     </nav>

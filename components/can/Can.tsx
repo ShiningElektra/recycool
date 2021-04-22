@@ -7,13 +7,13 @@ export type CanProps = {
 function Can({ type }: CanProps) {
   const drop = (e) => {
     e.preventDefault();
-    const fieldType = e.dataTransfer.getData("fieldType");
+    const fieldType = e.dataTransfer.getData("waste");
 
-    if (type === fieldType) {
-      alert("Correct");
-    } else {
-      alert("Not Correct");
-    }
+    // if (type === fieldType) {
+    //   alert("Correct");
+    // } else {
+    //   alert("Not Correct");
+    // }
     // const card = document.getElementById(card_id);
     // card.style.display = 'block';
 

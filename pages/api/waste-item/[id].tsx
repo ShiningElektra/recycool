@@ -3,23 +3,31 @@ import { useEffect, useState } from "react";
 import Field from "../../../components/field/Field";
 import { APIWaste, getItems } from "../../../utils/api";
 
-export default function Item() {
+export default function item() {
   const router = useRouter();
   const { id } = router.query;
-  console.log(id);
+
   const [item, setItem] = useState<APIWaste[]>([]);
 
   useEffect(() => {
-    getItems().then((item) => {
-      setItem(item);
-    });
-  }, []);
+    if (typeof id !== "string") {
+      return;
+    }
+    getItems().then((item) => setItem(item));
+  }),
+    [];
+
+  // useEffect(() => {
+  //   getItems().then((item) => {
+  //     setItem(item);
+  //   });
+  // }, []);
 
   if (!item) {
     return <div>Item not found</div>;
   }
 
-  const fieldItem = item.map((item) => {
+  item.map((item) => {
     return <Field key={item.id} />;
   });
 }

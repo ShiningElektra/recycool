@@ -16,7 +16,7 @@ async function fetchURL<T>(url: string): Promise<T> {
 export async function getItems(): Promise<APIWaste[]> {
   return await fetchURL<APIWaste[]>("/api/waste-items");
 }
-export async function getItem(id: number): Promise<APIWaste> {
+export async function getItem(id: string): Promise<APIWaste> {
   return await fetchURL<APIWaste>(`/api/waste-items/${id}`);
 }
 
