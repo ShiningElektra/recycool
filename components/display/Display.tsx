@@ -4,10 +4,16 @@ import styles from "./Display.module.css";
 export type DisplayProps = {
   value: string | number;
   style: string;
-  id: string;
 };
 
-function Display({ value, style, id }: DisplayProps) {
+function Display({ value, style }: DisplayProps) {
+  function handleDragEnd() {
+    {
+      value;
+    }
+    +1;
+  }
+
   return (
     <div className={styles.display}>
       <div className={styles[style]}>{value}</div>
