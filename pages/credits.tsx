@@ -3,15 +3,9 @@ import Display from "../components/display/Display";
 import GamePage from "../components/game/GamePage";
 import styles from "../styles/Home.module.css";
 import React from "react";
-// import { useState } from "react";
+import Credits from "../components/credits/Credits";
 
-export default function Home() {
-  // const [showHighscore, setShowHighscore] = useState(false);
-
-  // setTimeout(() => {
-  //   setShowHighscore(true);
-  // }, 5000);
-
+export default function CreditsPage() {
   return (
     <>
       <Head>
@@ -25,6 +19,7 @@ export default function Home() {
           <Display value="30" style="time" />
           <Display value="0" style="score" />
         </div>
+        <Credits />
       </main>
     </>
   );

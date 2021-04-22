@@ -1,12 +1,13 @@
 import styles from "./Cans.module.css";
+import Can from "../can/Can";
 
-const Cans = () => {
+function Cans() {
   return (
     <div className={styles.container}>
-      <div className={styles.canresidual}></div>
-      <div className={styles.canrecycling}></div>
-      <div className={styles.canpaper}></div>
+      <Can type="residual"></Can>
+      <Can type="recycle"></Can>
+      <Can type="paper"></Can>
     </div>
   );
-};
+}
 export default Cans;

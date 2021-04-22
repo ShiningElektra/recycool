@@ -7,6 +7,13 @@ export type DisplayProps = {
 };
 
 function Display({ value, style }: DisplayProps) {
+  function handleDragEnd() {
+    {
+      value;
+    }
+    +1;
+  }
+
   return (
     <div className={styles.display}>
       <div className={styles[style]}>{value}</div>
